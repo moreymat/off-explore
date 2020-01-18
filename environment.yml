@@ -1,6 +1,10 @@
 name: off-explore
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.7
   - pandas=0.25.3
   - jupyter
   - matplotlib
+  - pynndescent=0.4.4
