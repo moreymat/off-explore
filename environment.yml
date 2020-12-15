@@ -4,8 +4,10 @@ channels:
   - defaults
 dependencies:
   - python=3.7
-  - pandas=0.25.3
   - jupyter
+  - pandas=0.25.3
   - matplotlib=3.1.2
   - pynndescent=0.4.4
+  - opentsne=0.3.12
   - seaborn
+  - altair=4.0.0
