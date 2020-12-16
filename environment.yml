@@ -3,9 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7
-  - pandas=0.25.3
-  - jupyter
-  - matplotlib=3.1.2
-  - pynndescent=0.4.4
-  - seaborn
+  - python=3.8
+  - pandas=1.1.5
+  - jupyterlab
+  - matplotlib=3.3.3
+  - opentsne=0.4.4
+  - pynndescent=0.5.1
+  - seaborn=0.11.0
+  - tabulate=0.8.7
