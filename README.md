@@ -1,21 +1,23 @@
 # off-explore
-Une exploration des données d'[OpenFoodFacts](https://fr.openfoodfacts.org/).
+Une exploration des données d'[Open Food Facts](https://fr.openfoodfacts.org/).
 
 ## Prérequis
-Vous devez télécharger les données d'OpenFoodFacts exportées au format CSV [https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv].
-Ce fichier pèse 3 Go, je vous invite à lancer le téléchargement dès que possible.
+Vous devez **télécharger les données d'Open Food Facts** exportées au format CSV <https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv>.
+Ce fichier pèse 4.3 Go, je vous invite donc à **lancer le téléchargement dès que possible**.
 
 Pendant que les données sont téléchargées, vous devez vérifier que vous avez sur vos machines, ou installer le cas échéant :
-* git [https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git] ;
-* miniconda avec une version récente de **python 3** (actuellement python 3.8) [https://docs.conda.io/en/latest/miniconda.html] ou, éventuellement, anaconda avec une version récente de python 3 si vous l'avez déjà ;
-* JupyterLab [https://jupyter.org/install] ou jupyter notebook classique.
+* [git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git) ;
+* [miniconda](https://docs.conda.io/en/latest/miniconda.html) avec une version récente de **python 3** (3.8 et suivantes ; actuellement python 3.9) ou, éventuellement, [anaconda](https://www.anaconda.com/products/individual) avec une version récente de python 3 (idem) si vous l'avez déjà ;
+* [JupyterLab](https://jupyter.org/install) ou jupyter notebook classique.
 
 
 ## Mise en place initiale
 
-Nous allons travailler dans un environment virtuel conda qui contiendra python 3 (3.8) et les librairies nécessaires à la visualisation et à l'analyse des données (pandas, matplotlib, seaborn...).
+Nous allons travailler dans un environment virtuel conda qui contiendra python 3 et les bibliothèques nécessaires à la visualisation et à l'analyse des données: pandas, matplotlib, seaborn...
 
-J'ai préparé un fichier `environment.yml` qui permet de créer un environnement nommé `off-explore` et d'installer les dépendances :
+J'ai préparé un fichier `environment.yml` qui permet de créer un environnement nommé `off-explore` et d'installer les dépendances.
+
+Dans le terminal (Linux, macOS), ou dans "Anaconda Prompt" (Windows), exécutez la commande:
 
 ```sh
 conda env create -f environment.yml
@@ -35,10 +37,10 @@ conda deactivate
 ```
 
 ## OpenFoodFacts
-Dans cette série de notebooks, nous allons explorer les données contenues dans la base de données ouverte sur les produits alimentaires [OpenFoodFacts](https://fr.openfoodfacts.org/).
+Dans cette série de notebooks, nous allons explorer les données contenues dans la base de données ouverte sur les produits alimentaires [Open Food Facts](https://fr.openfoodfacts.org/).
 Nous allons notamment analyser le profil nutritionnel des produits alimentaires recensés.
 
-OpenFoodFacts est une base de données ouverte sur les produits alimentaires.
+Open Food Facts est une base de données ouverte sur les produits alimentaires.
 Elle est produite et gérée comme un [bien commun numérique](https://fr.wikipedia.org/wiki/Biens_communs_num%C3%A9riques).
 Tout le monde peut contribuer des données sur les produits alimentaires emballés : photos, ingrédients, valeurs nutritionnelles etc.
 Cette base de données a permis la construction de nombreuses applications sur téléphone mobile, notamment d'applications de scan de produits pour aider les consommateurs pendant leurs achats.
