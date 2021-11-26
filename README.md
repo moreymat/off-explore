@@ -49,8 +49,9 @@ Cette base de données a permis la construction de nombreuses applications sur t
 ## Notebooks
 
 
-* [01 - Charger les données d'OpenFoodFacts](https://github.com/moreymat/off-explore/blob/master/notebooks/01%20-%20Charger%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
-* [02 - Filtrer les données d'OpenFoodFacts](https://github.com/moreymat/off-explore/blob/master/notebooks/02%20-%20Filtrer%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
-* [03 - Nettoyer les données d'OpenFoodFacts](https://github.com/moreymat/off-explore/blob/master/notebooks/03%20-%20Nettoyer%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
-* [04 - Explorer les données d'OpenFoodFacts](https://github.com/moreymat/off-explore/blob/master/notebooks/04%20-%20Explorer%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
-* [05 - Explorer les données d'OpenFoodFacts - t-SNE](https://github.com/moreymat/off-explore/blob/master/notebooks/05%20-%20Explorer%20les%20donn%C3%A9es%20d'OpenFoodFacts%20-%20t-SNE.ipynb)
+* [01 - Charger les données d'Open Food Facts](https://github.com/moreymat/off-explore/blob/master/notebooks/01%20-%20Charger%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
+* [02 - Filtrer les données d'Open Food Facts](https://github.com/moreymat/off-explore/blob/master/notebooks/02%20-%20Filtrer%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
+* [03 - Nettoyer les données d'Open Food Facts](https://github.com/moreymat/off-explore/blob/master/notebooks/03%20-%20Nettoyer%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
+* [04 - Explorer les données d'Open Food Facts](https://github.com/moreymat/off-explore/blob/master/notebooks/04%20-%20Explorer%20les%20donn%C3%A9es%20d'OpenFoodFacts.ipynb)
+* [04b - Explorer les données d'Open Food Facts avec dirty-cat ](https://github.com/moreymat/off-explore/blob/master/notebooks/04b%20-%20Explorer%20les%20donn%C3%A9es%20d'Open%20Food%20Facts%20-%20dirty-cat.ipynb)
+* [05 - Explorer les données d'Open Food Facts - t-SNE](https://github.com/moreymat/off-explore/blob/master/notebooks/05%20-%20Explorer%20les%20donn%C3%A9es%20d'OpenFoodFacts%20-%20t-SNE.ipynb)
